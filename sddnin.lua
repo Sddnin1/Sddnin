@@ -52,6 +52,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
   JoinTeam = "Pirates"; -- Pirates/Marines
   Translator = true; -- true/false
 }  
+			
 getgenv().Version = "V1" loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))(Settings)
 end
 })
