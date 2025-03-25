@@ -30,8 +30,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Blox fruit"})
-     
+     local Tab1o = MakeTab({Name = "Blox fruits"})
+     local Tab2o = MakeTab({Name = "More"})
 ------- BUTTON
     
     AddButton(Tab1o, {
