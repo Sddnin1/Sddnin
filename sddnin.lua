@@ -5,7 +5,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          Title = "Sddnin",
          Animation = "Sddnin Hub"
          },
-        Key = {,
+        Key = {
         KeySystem = false,
         Title = "Key System",
         Description = "",
