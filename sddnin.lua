@@ -32,7 +32,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "Blox fruits"})
      local Tab2o = MakeTab({Name = "Tool"})
-local Tab3o = MakeTab({Name ="Kaitun"})
+local Tab3o = MakeTab({Name = "Kaitun"})
+local Tab4o = MakeTab({Name = "Dead rails"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -73,6 +74,7 @@ AddButton(Tab2o, {
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end
 })
+	
 AddButton(Tab2o, {
      Name = "Fly v3",
     Callback = function()
@@ -97,3 +99,16 @@ _G.FruitFinder = true;
 loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
 		end
 	})
+
+	AddButton(Tab2o, {
+     Name = "AirFlow",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+				}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/255ac567ced3dcb9e69aa7e44c423f19.lua"))()
+			end
+		})
+
