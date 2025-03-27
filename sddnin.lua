@@ -31,8 +31,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Blox fruits"})
-     local Tab2o = MakeTab({Name = "More"})
-local Tab3o = MakeTab({Name ="Dead rails"})
+     local Tab2o = MakeTab({Name = "Tool"})
+local Tab3o = MakeTab({Name ="Kaitun"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -58,7 +58,7 @@ getgenv().Version = "V1" loadstring(game:HttpGet("https://raw.githubusercontent.
 end
 })
 AddButton(Tab2o, {
-     Name = "infinite eyield",
+     Name = "Infinite Eyield",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -69,7 +69,7 @@ AddButton(Tab2o, {
 	end
 })
 AddButton(Tab2o, {
-     Name = "Redz Hub",
+     Name = "Fly v3",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -80,3 +80,15 @@ AddButton(Tab2o, {
 	end
 })
 
+AddButton(Tab3o, {
+     Name = "Hop fruit in blox fruits",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+			}
+
+_G.FruitFinder = true;
+loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+		end
+	})
