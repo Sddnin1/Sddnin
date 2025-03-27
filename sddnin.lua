@@ -36,22 +36,6 @@ local Tab3o = MakeTab({Name = "Kaitun"})
 local Tab4o = MakeTab({Name = "Dead rails"})
 ------- BUTTON
     
-    AddButton(Tab1o, {
-     Name = "Redz Hub",
-    Callback = function()
-	  local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
-  Translator = true; -- true/false
-}
-
-loadstring(game:HttpGet("local Settings = {
-  JoinTeam = "Pirates"; -- Pirates/Marines
-  Translator = true; -- true/false
-}
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
-  end
-  })
       AddButton(Tab1o, {
      Name = "Xeter Hub",
     Callback = function()
