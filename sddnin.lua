@@ -43,7 +43,12 @@ local Tab3o = MakeTab({Name ="Kaitun"})
   Translator = true; -- true/false
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+loadstring(game:HttpGet("local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
   end
   })
       AddButton(Tab1o, {
@@ -58,7 +63,7 @@ getgenv().Version = "V1" loadstring(game:HttpGet("https://raw.githubusercontent.
 end
 })
 AddButton(Tab2o, {
-     Name = "Infinite Eyield",
+     Name = "Infinite Yield",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
@@ -81,7 +86,7 @@ AddButton(Tab2o, {
 })
 
 AddButton(Tab3o, {
-     Name = "Hop fruit in blox fruits",
+     Name = "Hop fruit (Blox fruits)",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
