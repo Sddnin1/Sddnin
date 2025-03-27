@@ -100,7 +100,7 @@ loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
 		end
 	})
 
-	AddButton(Tab2o, {
+	AddButton(Tab4o, {
      Name = "AirFlow",
     Callback = function()
 	  local Settings = {
