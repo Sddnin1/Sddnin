@@ -112,3 +112,12 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/255ac567ced3dc
 			end
 		})
 
+AddButton(Tab4o, {
+     Name = "TN Roblox",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+				}
+
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/thiennrb7/Script/refs/heads/main/Bringall"))()
