@@ -121,3 +121,5 @@ AddButton(Tab4o, {
 				}
 
 				loadstring(game:HttpGet("https://raw.githubusercontent.com/thiennrb7/Script/refs/heads/main/Bringall"))()
+			end
+		})
